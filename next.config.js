@@ -13,13 +13,13 @@ const {
 
 
 
-module.export = (phase) => {
+module.exports = (phase) => {
 
   // next.config.js object
   return {
     env:{
-      DBPASSWORD:"66YZ3w6oRXuvSy2s",
-      DBUSERNAME:"Litotechenterprise",
+      DBPASSWORD:"Dtgfu1314",
+      DBUSERNAME:"LitoTech",
       DBNAME:"AudioUploadDB"
     }
   }

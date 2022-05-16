@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb"
 export default async function handler(req, res) {
     let client;
     try{
-        client = await MongoClient.connect(`mongodb+srv://${process.env.DBUSERNAME}:${process.env.DBPASSWORD}@dev.xanzp.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`)
+        client = await MongoClient.connect("mongodb+srv://LitoTech:Dtgfu1314@dev.xanzp.mongodb.net/AudioUploadDB?retryWrites=true&w=majority")
     } catch(e) {
         console.log(e)
         res.status(500).json({ error: 'Could not connect to DB' })
